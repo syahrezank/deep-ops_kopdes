@@ -16,6 +16,9 @@ Dibaca hanya saat mengubah repo. Riwayat per chat ada di `log/`.
 - Setiap gerakan uang yang melibatkan uang pribadi Reza harus sinkron dengan tracker pribadinya (Google Sheet `Expense_Tracker_v0.5`). (26 Nov)
 - Semua yang dicatat digital (uang, kantong, stok, orang, tugas) punya pencocokan dengan hitungan kertas manual. Digital dan kertas punya sumber masing-masing. (26 Nov)
 - Planogram tidak boleh hard-coded: planogram sekarang pinjaman dari kopdes lain dan akan diganti versi resmi Agrinas. (26 Nov)
+- Pencocokan kertas–digital berlaku untuk **semua hal**, bukan hanya stok, dan harus bisa dilakukan Reza atau karyawan **dengan maupun tanpa Claude**. Selisih dihitung oleh Sheet sendiri, dan formulir kertas punya kolom dan nomor yang sama dengan Sheet. (27 Nov)
+- Fokus satu aspek dulu: uang. Menulis ke Obsidian diizinkan nanti, belum sekarang. (27 Nov)
+- Kantong uang bisa dipegang atau dititipkan ke karyawan untuk sebuah tugas. Setiap kantong punya pemegang, dan setiap serah terima dicatat. (27 Nov)
 
 ## Izin tetap berkas
 Berkas di Drive atau laptop yang boleh diubah tanpa bertanya dulu. Berlaku sampai Reza mencabutnya.
@@ -29,6 +32,8 @@ Berkas di Drive atau laptop yang boleh diubah tanpa bertanya dulu. Berlaku sampa
 | Penyimpanan | Foto, PDF, ekspor, dan data di Drive/Sheets. Repo hanya teks dan alat, supaya tidak membengkak. | 25 Nov |
 | Membaca Drive | Lewat folder lokal (Claude desktop). Konektor Drive tidak dipakai untuk membaca foto. | Reza, 26 Nov |
 | Cadangan pecahan Rp2.000 (Rp200.000, ditukar lewat jasa berbayar) | Uang pribadi Reza | Reza, 27 Nov |
+| Modal laci kasir (Rp10.000 di POS) | Uang pribadi Reza. Agrinas belum memberi petty cash. | Reza, 27 Nov |
+| Jasa angkut | Bukan kantong. Ia jenis gerakan uang (upah sopir, BBM, perawatan, bayaran petani) antar-kantong yang ada. | Reza, 27 Nov |
 
 ## Kebutuhan Reza
 
@@ -75,13 +80,15 @@ Berkas di Drive atau laptop yang boleh diubah tanpa bertanya dulu. Berlaku sampa
 ## Rancangan DRAF (belum dibaca/disetujui Reza)
 Reza belum membaca daftar kantong (27 Nov). Jangan dibangun sebelum disetujui.
 
-- **Uang:** satu catatan gerakan uang antar-kantong (dari → ke, nominal, alasan, siapa, foto bukti, status). Setiap "buku" hanyalah tampilan dari catatan itu. Hanya baris yang menyentuh kantong pribadi Reza yang dikirim ke tracker pribadinya.
-  - Usulan kantong: Laci kasir (modal + sales hari itu), Uang sales titipan Agrinas, Cadangan pecahan (milik Reza), Kas operasional kopdes, Talangan (uang Reza yang harus kembali: materai, pengajuan ke Agrinas), Jasa angkut (per perjalanan), Pribadi Reza.
-  - Setiap kantong punya lembar hitung kertas untuk dicocokkan dengan saldo digital.
+- **Uang:** satu catatan gerakan uang antar-kantong (dari → ke, nominal, jenis, siapa, foto bukti, paraf). Setiap "buku" hanyalah tampilan dari catatan itu. Hanya baris yang menyentuh kantong pribadi Reza yang dikirim ke tracker pribadinya.
+  - Kantong = tempat uang berada secara fisik, dengan pemilik dan pemegang sekarang. Usulan revisi 27 Nov (versi pertama dikoreksi Reza: jasa angkut bukan kantong): Laci kasir (modal milik Reza + sales milik Agrinas), Cadangan pecahan (milik Reza), Kas operasional kopdes, Uang pribadi Reza (BNI, tunai), Uang karyawan (bila karyawan membayar atau menyetor dengan uangnya sendiri), BNI Agrinas (tujuan setoran).
+  - Jasa angkut, talangan (materai, pengajuan ke Agrinas), tukar pecahan, setoran, dan belanja operasional menjadi **jenis** gerakan, bukan kantong. "Sales belum disetor" dihitung: penjualan POS dikurangi setoran.
+  - Serah terima kantong ke karyawan dicatat sebagai baris tersendiri, diparaf kedua pihak.
+  - Setiap kantong punya lembar hitung kertas; Sheet menghitung selisihnya sendiri.
   - Pendapat Claude soal urunan: jangan dibebankan ke karyawan. Alternatifnya pengajuan ke Agrinas, pendapatan non-POS kopdes, atau uang Reza yang dicatat sebagai talangan atau sumbangan.
   - Perlu dicek dulu: bila kardus dan permen milik Agrinas, hasil penjualannya mungkin termasuk sales Agrinas, bukan tabungan kopdes.
-- **Stok:** tabel produk (pemetaan nama dan kode POS); tabel lokasi (rak × shelf × bay, gudang, warehouse) yang dibangkitkan skrip dari teks halaman 1 PDF planogram, jadi tidak hard-coded; stok per lokasi dari hitungan opname + mutasi gudang→gerai; total POS sebagai pembanding. Dashboard setelah datanya ada.
-- **Kertas vs digital:** lembar hitung tercetak berurutan planogram, difoto, dibaca langsung, lalu dicocokkan.
+- **Stok:** tabel produk (pemetaan nama dan kode POS); tabel lokasi (rak × shelf × bay, gudang, warehouse) yang dibangkitkan skrip dari teks halaman 1 PDF planogram, jadi tidak hard-coded; stok per lokasi dari hitungan opname + mutasi gudang→gerai; total POS sebagai pembanding. Data yang ada sekarang (12 produk di POS, STB) cukup untuk mulai; yang belum ada hanya hitungan per lokasi.
+- **Kertas vs digital (semua hal):** setiap catatan digital punya formulir kertas dengan kolom dan nomor yang sama, dan Sheet menghitung selisihnya sendiri, supaya bisa dicek tanpa Claude. Untuk stok, lembar hitung berurutan planogram.
 - **Tugas:** Sheet untuk tugas bersama, Obsidian untuk tugas Reza, dihubungkan lewat ID tugas. Obsidian hanya dibaca kecuali Reza mengizinkan menulis.
 - **Orang:** templat shift untuk 1–6 orang, termasuk mode Reza sendiri.
 - **Urutan:** uang dulu (risiko tertinggi), lalu stok dan planogram, lalu tugas dan orang.
@@ -89,7 +96,7 @@ Reza belum membaca daftar kantong (27 Nov). Jangan dibangun sebelum disetujui.
 ## Jangan diulang
 - **Mengeksekusi tanpa bertanya:** pada 26 Nov Claude membuat Sheet `Buku Kas KDKMP Jogomulyo` di Drive SALES dan menjadwalkan pesan pagi jam 07.00 tanpa izin. Sheet itu masih ada, dan Reza yang memutuskan nasibnya.
 - **OCR konektor Drive untuk foto** (close shift, bukti transfer): hasilnya tidak bisa dipegang.
-- **Meminta Reza membuat repo yang ternyata sudah ada.**
+- **Meminta Reza membuat repo yang ternyata sudah ada**, dan **meminta Reza merge PulReq #1 yang ternyata sudah ia merge** (27 Nov). Cek dulu sebelum meminta.
 - **Mengusulkan langkah dari catatan basi** (stempel yang sudah lama didapat).
 
 ## Belum terbukti

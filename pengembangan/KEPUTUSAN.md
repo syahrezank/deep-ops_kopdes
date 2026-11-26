@@ -34,6 +34,7 @@ Berkas di Drive atau laptop yang boleh diubah tanpa bertanya dulu. Berlaku sampa
 | Penyimpanan | Foto, PDF, ekspor, dan data di Drive/Sheets. Repo hanya teks dan alat, supaya tidak membengkak. | 25 Nov |
 | Membaca Drive | Lewat folder lokal (Claude desktop). Konektor Drive tidak dipakai untuk membaca foto. | Reza, 26 Nov |
 | Cadangan pecahan Rp2.000 (Rp200.000, ditukar lewat jasa berbayar) | Uang pribadi Reza | Reza, 27 Nov |
+| Amplop pecahan di gerai | ±Rp20.000 dalam pecahan Rp2.000, uang Reza. Bila perlu lebih, karyawan meminta ke Reza; sisa cadangan dipegang Reza. | Reza, 27 Nov |
 | Modal laci kasir (Rp10.000 di POS) | Uang pribadi Reza. Agrinas belum memberi petty cash. | Reza, 27 Nov |
 | Catatan uang | Dibangun di Sheet `Buku Kas KDKMP Jogomulyo` (SALES): tab Kantong, Mutasi, POS Harian, Aturan. Struktur di `templat/buku-kas.md`. | Reza, 27 Nov |
 | Bukti fisik uang | Foto Timemark struk close shift beserta uangnya, seperti yang sudah Reza lakukan. Foto 26 Nov memperlihatkan tepat Rp15.500 (3 × Rp5.000 + koin Rp500). | 27 Nov |

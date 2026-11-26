@@ -19,6 +19,7 @@ Dibaca hanya saat mengubah repo. Riwayat per chat ada di `log/`.
 - Pencocokan kertas–digital berlaku untuk **semua hal**, bukan hanya stok, dan harus bisa dilakukan Reza atau karyawan **dengan maupun tanpa Claude**. Selisih dihitung oleh Sheet sendiri, dan formulir kertas punya kolom dan nomor yang sama dengan Sheet. (27 Nov)
 - Fokus satu aspek dulu: uang. Menulis ke Obsidian diizinkan nanti, belum sekarang. (27 Nov)
 - Kantong uang bisa dipegang atau dititipkan ke karyawan untuk sebuah tugas. Setiap kantong punya pemegang, dan setiap serah terima dicatat. (27 Nov)
+- POS tidak punya mekanisme gudang vs gerai; semua barang ada di satu daftar. **Sistem deep-ops yang menyediakan lapisan lokasi.** Planogram harus sinkron dengan stok: setiap sel menunjukkan berapa jumlah suatu produk di rak mana, bagian gudang mana, atau bagian gerai mana, termasuk lokasi lantai. Contoh 27 Nov: seluruh 198 karung Beras SPHP ditaruh di lantai gerai, antara rak tengah dan kasir, tepat setelah pintu masuk. (27 Nov)
 
 ## Izin tetap berkas
 Berkas di Drive atau laptop yang boleh diubah tanpa bertanya dulu. Berlaku sampai Reza mencabutnya.

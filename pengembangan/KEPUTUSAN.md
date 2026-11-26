@@ -19,12 +19,13 @@ Dibaca hanya saat mengubah repo. Riwayat per chat ada di `log/`.
 - Pencocokan kertas–digital berlaku untuk **semua hal**, bukan hanya stok, dan harus bisa dilakukan Reza atau karyawan **dengan maupun tanpa Claude**. Selisih dihitung oleh Sheet sendiri, dan formulir kertas punya kolom dan nomor yang sama dengan Sheet. (27 Nov)
 - Fokus satu aspek dulu: uang. Menulis ke Obsidian diizinkan nanti, belum sekarang. (27 Nov)
 - Kantong uang bisa dipegang atau dititipkan ke karyawan untuk sebuah tugas. Setiap kantong punya pemegang, dan setiap serah terima dicatat. (27 Nov)
+- Penjualan POS bisa diambil dari gudang maupun gerai; contohnya seluruh pupuk sekarang ada di gudang dan dijual dari sana. Jadi setiap produk punya lokasi jual sendiri; anggapan "penjualan selalu dari gerai" salah. (27 Nov)
 - POS tidak punya mekanisme gudang vs gerai; semua barang ada di satu daftar. **Sistem deep-ops yang menyediakan lapisan lokasi.** Planogram harus sinkron dengan stok: setiap sel menunjukkan berapa jumlah suatu produk di rak mana, bagian gudang mana, atau bagian gerai mana, termasuk lokasi lantai. Contoh 27 Nov: seluruh 198 karung Beras SPHP ditaruh di lantai gerai, antara rak tengah dan kasir, tepat setelah pintu masuk. (27 Nov)
 
 ## Izin tetap berkas
 Berkas di Drive atau laptop yang boleh diubah tanpa bertanya dulu. Berlaku sampai Reza mencabutnya.
 
-- (belum ada)
+- `SALES/Buku Kas KDKMP Jogomulyo` (Google Sheet): Reza memilihnya sebagai tempat catatan uang (27 Nov, "Buku Kas in sales"). Belum dipastikan apakah izin ini juga mencakup menambah baris baru tanpa bertanya.
 
 ## Yang berlaku sekarang
 | Topik | Keputusan | Asal |
@@ -34,6 +35,8 @@ Berkas di Drive atau laptop yang boleh diubah tanpa bertanya dulu. Berlaku sampa
 | Membaca Drive | Lewat folder lokal (Claude desktop). Konektor Drive tidak dipakai untuk membaca foto. | Reza, 26 Nov |
 | Cadangan pecahan Rp2.000 (Rp200.000, ditukar lewat jasa berbayar) | Uang pribadi Reza | Reza, 27 Nov |
 | Modal laci kasir (Rp10.000 di POS) | Uang pribadi Reza. Agrinas belum memberi petty cash. | Reza, 27 Nov |
+| Catatan uang | Dibangun di Sheet `Buku Kas KDKMP Jogomulyo` (SALES): tab Kantong, Mutasi, POS Harian, Aturan. Struktur di `templat/buku-kas.md`. | Reza, 27 Nov |
+| Bukti fisik uang | Foto Timemark struk close shift beserta uangnya, seperti yang sudah Reza lakukan. Foto 26 Nov memperlihatkan tepat Rp15.500 (3 × Rp5.000 + koin Rp500). | 27 Nov |
 | Jasa angkut | Bukan kantong. Ia jenis gerakan uang (upah sopir, BBM, perawatan, bayaran petani) antar-kantong yang ada. | Reza, 27 Nov |
 
 ## Kebutuhan Reza
@@ -101,6 +104,8 @@ Reza belum membaca daftar kantong (27 Nov). Jangan dibangun sebelum disetujui.
 - **Mengusulkan langkah dari catatan basi** (stempel yang sudah lama didapat).
 
 ## Belum terbukti
+- Kertas dan kode lokasi untuk stok: Reza ragu karyawan mudah memakainya, karena gajinya terbatas. Peta yang dicetak juga sulit diubah dan bisa salah (27 Nov). Pilihan yang ditawarkan: (a) daftar hitung dicetak baru dari Sheet setiap kali menghitung, dengan nama biasa tanpa kode; (b) menghitung langsung di HP; (c) foto Timemark sebagai bukti fisik. Belum diputuskan.
+- Kas awal POS diketik kasir setiap shift (selalu Rp10.000), bukan sisa laci kemarin. Akibatnya uang yang tertinggal di laci antar-shift tidak terlihat di POS.
 - Laporan Stok POS bisa memilih tanggal lampau.
 - "Nilai stok" di POS adalah harga pokok.
 - Mesin POS punya versi web yang bisa dibaca lewat browser.

@@ -22,6 +22,13 @@ Prinsip:
 
 Tab lama (Kantong, Mutasi, POS Harian, Aturan) dihapus 27 Nov atas izin Reza.
 
+## Rumus dan ukuran (27 Nov 10.50)
+- Kolom otomatis memakai satu rumus per kolom di baris judul (ARRAYFORMULA/MAP), bukan rumus per baris. Baris baru langsung terhitung, dan satu sel yang tertimpa tidak merusak baris lain.
+- Beberapa kasir per hari: satu baris per kasir per shift. Cek foto dan Ringkas menjumlah per tanggal; Ringkas menyebut jumlah shift dan nama kasir yang selisih. Hari buka dihitung per tanggal unik.
+- SUMIFS tidak bisa menerima kriteria berupa larik di ARRAYFORMULA Google Sheets (hanya menghasilkan satu angka). SUMIF dan COUNTIFS bisa. Untuk SUMIFS per baris, pakai MAP.
+- Kapasitas lembar: Tutup 3.000 baris (±4 tahun dengan 2 shift/hari), Setor 1.000, Biaya 2.000, Foto 4.000. Bila penuh, cukup tambah baris; rumus mengikuti sendiri.
+- Perkiraan 2 tahun dengan 2 shift/hari: ±1.460 baris Tutup, ±313 setoran, ±2.000 foto, total <100 ribu sel (batas Sheets 10 juta). Transaksi per pembeli (±73.000 dalam 2 tahun) tetap di POS, tidak diketik ke Sheet.
+
 ## Alur
 1. Kasir menutup shift → mengisi baris Tutup → foto Timemark → foto sampai di Drive.
 2. Laptop menyinkron lewat rclone → Claude membaca foto lokal → menulis ke tab Foto → kolom Cek foto berubah menjadi Cocok atau Beda.

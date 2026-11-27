@@ -24,6 +24,9 @@ Dibaca hanya saat mengubah repo. Riwayat per chat ada di `log/`.
 - **Bangun dasar semua aspek dulu.** Otomasi, atau setidaknya pengolahan mudah lewat Claude Code, baru jauh nanti setelah dasar semua aspek berdiri. Dasar itu harus muat juga aspek yang belum Reza tulis, belum terpikir, atau belum ada di folder Drive. (27 Nov)
 - **Alur foto (wajib diingat):** Reza mengunggah foto ke Drive → laptop menyinkron lewat rclone → Claude membaca gambar lokal → hasil bacaan ditaruh di tab tersendiri → data itu dipakai untuk mengisi tab lain. (27 Nov)
 - **Sheet untuk manusia, bukan untuk Claude.** Nama pendek seperti percakapan sehari-hari ("Laci", bukan "Laci kasir – modal Reza…"). Tidak ada teks biru. Ada dasbor yang langsung terbaca. Setiap tab dan letak info harus masuk akal bagi Reza dan karyawan. (Reza, 27 Nov: "buy me a milk" vs "mammal white excretion")
+- **Karyawan ikut membuka Buku Kas.** Bahasanya netral: tidak ada "uangmu", tidak ada kesan orang berutang ke Reza. Materai petani dan cetak adalah biaya; petani ditanya mau mengganti, bukan ditagih. Fee tukar adalah biaya, bukan uang Reza di kopdes. (Reza, 27 Nov 10.04)
+- **Isi langsung, cek sesudahnya.** Reza dan karyawan mengisi Sheet langsung (real time). Foto dan bacaan Claude hanya mengecek sesudahnya, tidak boleh jadi antrean. (27 Nov)
+- **Istilah:** "Modal awal" untuk uang kembalian di laci (SOP Agrinas: "Modal Awal (Floating Money)"; POS: "Saldo awal"). "Petty cash" hanya nama kiriman Rp100.000 dari Agrinas, karena dalam pembukuan petty cash berarti dana biaya kecil, bukan uang kembalian. "Kantong setor" untuk sales yang menunggu disetor (istilah SOP). (27 Nov)
 - **Buku Kas bukan tracker pribadi.** Tracker pribadi Reza (`Expense_Tracker`) jadi patokan mutu (dasbor dulu, nama pendek, tab mentah terpisah dari tab bersih), bukan untuk disalin. Buku Kas dirancang dari pertanyaan Buku Kas sendiri. (27 Nov)
 - POS tidak punya mekanisme gudang vs gerai; semua barang ada di satu daftar. **Sistem deep-ops yang menyediakan lapisan lokasi.** Planogram harus sinkron dengan stok: setiap sel menunjukkan berapa jumlah suatu produk di rak mana, bagian gudang mana, atau bagian gerai mana, termasuk lokasi lantai. Contoh 27 Nov: seluruh 198 karung Beras SPHP ditaruh di lantai gerai, antara rak tengah dan kasir, tepat setelah pintu masuk. (27 Nov)
 
@@ -38,13 +41,13 @@ Berkas di Drive atau laptop yang boleh diubah tanpa bertanya dulu. Berlaku sampa
 | Pembagian repo | Satu repo ops untuk kas, stok, dan orang. Pencocokan ganda terjadi antar-bagian, jadi bagian-bagian itu harus di satu tempat. deep-space tetap untuk aturan, administrasi, pupuk, dan kasus SDM; deep-studio untuk desain dan pemasaran. | Diskusi 25 Nov; Reza membuat repo ini |
 | Penyimpanan | Foto, PDF, ekspor, dan data di Drive/Sheets. Repo hanya teks dan alat, supaya tidak membengkak. | 25 Nov |
 | Membaca Drive | Lewat folder lokal (Claude desktop). Konektor Drive tidak dipakai untuk membaca foto. | Reza, 26 Nov |
-| Cadangan pecahan Rp2.000 | Rp200.000 uang Reza ditukar: Rp190.000 jadi pecahan, Rp10.000 ongkos jasa. Setelah Rp20.000 masuk amplop gerai, sisa Rp170.000 dipegang Reza. | Reza, 27 Nov (koreksi 09.47) |
+| Cadangan uang kecil | Uang pribadi Reza, tidak dicatat di Buku Kas. Rp200.000 ditukar dengan fee Rp10.000, jadi tersisa Rp190.000 uang kecil campuran (2.000, 5.000, 10.000), belum dihitung semua. Fee masuk tab Biaya. | Reza, 27 Nov 10.04 |
 | Amplop pecahan di gerai | Selalu Rp20.000 (awalnya 10 lembar Rp2.000), uang Reza, terpisah dari laci. Pecahan habis: karyawan minta tukar ke Reza. | Reza, 27 Nov ("sure") |
 | Modal laci kasir | Rp10.000 uang pribadi Reza, diketik sebagai saldo awal POS. Tetap Rp10.000 selama petty cash Rp100.000 dari Agrinas belum masuk ke BNI Reza. | Reza, 27 Nov |
 | Kembalian kurang | Tukar dengan amplop, nilainya sama, tidak dicatat. Kembalian selalu dari laci. Bila terpaksa memakai uang sendiri: uang + bon (tanggal, nama, nominal) masuk laci, diambil kembali saat tutup shift. Foto Timemark tutup shift berisi laci + amplop + bon di samping struk. | Usulan Claude, disetujui Reza 27 Nov ("sure") |
 | Sales yang dibawa sebelum setor | Kantong sendiri "Uang sales dibawa (belum disetor)", milik Agrinas walau dibawa Reza. Rp103.000 sales 25 Nov ada di tas Reza karena kopdes belum punya dompet fisik. | Reza, 27 Nov |
 | Kartu aturan kasir | Google Doc `SALES/Aturan Uang Kasir KDKMP Jogomulyo`, satu halaman. | Reza, 27 Nov ("sure") |
-| Catatan uang | Dibangun di Sheet `Buku Kas KDKMP Jogomulyo` (SALES): tab Kantong, Mutasi, POS Harian, Aturan. Struktur di `templat/buku-kas.md`. | Reza, 27 Nov |
+| Catatan uang | Sheet `Buku Kas KDKMP Jogomulyo` (SALES) versi 2: Ringkas, Tutup, Setor, Biaya, Foto, Daftar, Panduan. Tab lama disembunyikan sampai Reza setuju. Struktur di `templat/buku-kas.md`. | Reza, 27 Nov |
 | Bukti fisik uang | Foto Timemark struk close shift beserta uangnya, seperti yang sudah Reza lakukan. Foto 26 Nov memperlihatkan tepat Rp15.500 (3 × Rp5.000 + koin Rp500). | 27 Nov |
 | Jasa angkut | Bukan kantong. Ia jenis gerakan uang (upah sopir, BBM, perawatan, bayaran petani) antar-kantong yang ada. | Reza, 27 Nov |
 
@@ -112,6 +115,12 @@ Daftar kantong sudah dipakai di Sheet sejak Reza menjawab "sure" (27 Nov), tetap
 - **Meminta Reza membuat repo yang ternyata sudah ada**, dan **meminta Reza merge PulReq #1 yang ternyata sudah ia merge** (27 Nov). Cek dulu sebelum meminta.
 - **Mengusulkan langkah dari catatan basi** (stempel yang sudah lama didapat).
 - **Buku Kas versi 27 Nov pagi** (Kantong/Mutasi/POS Harian/Aturan): sulit dibaca, diisi, dikerjakan bersama, dan dicocokkan. Nama kantong dan jenis terlalu panjang, teks biru di mana-mana (kebiasaan model keuangan, bukan selera Reza), 11–20 kolom per tab, tanpa dasbor. Kata Reza: "sheet yang hanya untuk kamu baca dan tulis".
+- **Rancangan v2 pertama (mockup 09.50):**
+  - label "Kasir · Laci", "Reza · Dibawa" tidak praktis;
+  - "Uangmu di kopdes" terlalu pribadi untuk Sheet yang dibuka karyawan;
+  - "Talangan materai · harus kembali" membuat Reza tampak menagih semua orang;
+  - fee tukar dihitung sebagai uang Reza di kopdes;
+  - foto dijadikan pintu masuk data (antrean).
 - **Membuat berkas lalu menghabiskan sedikit pikir dan riset.** Reza membandingkan dengan tracker pribadinya, yang dibangun dari satu prompt dan langsung bagus di iterasi pertama.
 
 ## Belum terbukti

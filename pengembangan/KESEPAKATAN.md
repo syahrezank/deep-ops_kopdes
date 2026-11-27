@@ -73,7 +73,8 @@ Saldo awal dibuang (? 16.14).
   - jumlah yang seharusnya ada;
   - bagian Agrinas (disetor, sama dengan struk);
   - bagian tiap orang (diambil kembali);
-  - selisih yang belum terjelaskan.
+  - selisih.
+- **Selisih dinalar dari kenyataan, bukan dibiarkan "belum terjelaskan".** Uang di laci hanya bisa berasal dari uang pembeli (tercatat di struk) dan uang orang yang memasukkannya. Bila pembeli sudah menerima kembalian penuh dan hanya satu orang yang memasukkan uang pribadi, selisih lebih adalah milik orang itu. Bila beberapa orang memegang laci, selisih dicatat dengan PJ-nya.
 - Sheet juga memberi tahu baris apa yang perlu ditulis.
 
 **Dasbor ?**, 4 pertanyaan, satu tabel untuk tiap pertanyaan:
@@ -127,9 +128,9 @@ Dihitung dari data operasional, tanpa isian tambahan:
 9. Hasil dilihat lewat ekspor PDF: tidak ada teks terpotong.
 
 10. **Kasus nyata 27 Nov.** Modal laci 10k uang Reza. Beras 58k dibayar 70k; kembalian 12k, terdiri dari 10k dari laci + 2k dari saku Reza. Hitungan laci 71k.
-    - Seharusnya 70k: Agrinas 58k + Reza 12k.
-    - Selisih lebih 1k.
-    - POS mengharapkan 68k, jadi selisihnya +3k bila 2k Reza tidak diambil dulu.
+    - Jawaban yang benar: 71k = Agrinas 58k + Reza 13k. Selisih 1k adalah uang Reza; hanya dia yang ada di gerai dan satu-satunya uang lain di laci adalah uangnya.
+    - Reza mengambil 3k, sehingga laci berisi 68k dan cocok dengan POS (kas awal 10k + tunai 58k).
+    - Yang disetor 58k.
 
 Uji stok ditambahkan saat bagian stok dibangun.
 

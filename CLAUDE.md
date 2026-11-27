@@ -1,5 +1,7 @@
 # deep-ops — operasional harian gerai KDKMP Jogomulyo
 
+**Prinsip utama (Reza, 27 Nov):** sheet dan alat harus mempermudah Reza dan karyawan menyelesaikan tugas dan tanggung jawabnya dengan akurat — bukan memperumit atau menambah beban harian hanya supaya ada data ini-itu. Setiap kolom, tab, atau langkah baru harus menjawab "tugas siapa yang jadi lebih mudah?".
+
 **Tujuan:** membantu Reza (Syahreza), Manajer KDKMP Jogomulyo, Kec. Tempuran, Kab. Magelang, mengelola operasional gerai: uang (POS, laci, setoran, kas, uang pribadi Reza), stok (gerai, gudang, planogram), dan orang (tugas, jadwal, kinerja). Setiap angka digital dicocokkan dengan hitungan kertas. Yang dinilai: angka benar dan bisa dibuktikan, beban kecil bagi Reza dan karyawan.
 
 ## Cara bekerja dengan Reza

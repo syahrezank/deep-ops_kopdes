@@ -10,6 +10,7 @@ Dibaca hanya saat mengubah repo. Riwayat per chat ada di `log/`.
 5. **Hal rumit tidak dilimpahkan ke karyawan bergaji Rp1,9 juta.** Karyawan cukup memotret, menghitung, dan mencentang; pencocokan dikerjakan Claude bersama Reza. (25 Nov)
 6. **Belajar dari deep-space, tidak terikat aturan dan strukturnya.** Struktur ops mengikuti kebutuhannya sendiri. (26 Nov)
 7. **Repo dibangun mengikuti panduan Reza** di Obsidian `! Plan/Claude Code.md`: CLAUDE.md ramping, alat untuk pekerjaan mekanis, KEPUTUSAN + log, git berizin. (dibaca 26 Nov)
+8. **Mempermudah tugas, bukan menambah beban.** Sheet harus membantu Reza dan karyawan menyelesaikan tugas dan tanggung jawab dengan akurat; jangan memperumit atau menambah beban harian hanya supaya ada data. (Reza, 27 Nov 11.32)
 
 ## Aturan tetap Reza yang tidak tertulis di CLAUDE.md
 - Tugas yang melibatkan karyawan atau orang lain disimpan di Sheets (`HR/Tugas_KDKMP_Jogomulyo`). Tugas yang hanya Reza kerjakan, kerja maupun rumah, disimpan di Obsidian TaskNotes; tugas kerja ditandai context `work`. Keduanya harus nyambung. (26 Nov)
@@ -41,13 +42,16 @@ Berkas di Drive atau laptop yang boleh diubah tanpa bertanya dulu. Berlaku sampa
 | Pembagian repo | Satu repo ops untuk kas, stok, dan orang. Pencocokan ganda terjadi antar-bagian, jadi bagian-bagian itu harus di satu tempat. deep-space tetap untuk aturan, administrasi, pupuk, dan kasus SDM; deep-studio untuk desain dan pemasaran. | Diskusi 25 Nov; Reza membuat repo ini |
 | Penyimpanan | Foto, PDF, ekspor, dan data di Drive/Sheets. Repo hanya teks dan alat, supaya tidak membengkak. | 25 Nov |
 | Membaca Drive | Lewat folder lokal (Claude desktop). Konektor Drive tidak dipakai untuk membaca foto. | Reza, 26 Nov |
+| Kas kopdes | Saat ini Rp0. Hasil jual kardus dan lainnya sah menjadi kas kopdes (sudah terbukti, Reza 27 Nov). Reza berencana memodali Rp50.000 dari uangnya sendiri; belum diberikan dan belum dicatat di tracker pribadi. Dicatat di tab Kas saat diberikan. | Reza, 27 Nov 11.32 |
+| Kebocoran uang | Dimulai dari uang sales yang dibawa Reza atau karyawan sebelum disetor. Tutup shift kini mencatat siapa yang membawa uang setor; Dasbor menampilkan jumlah yang sedang dibawa per orang. | Reza, 27 Nov 11.32 |
+| Amplop tukar | Belum diserahkan ke gerai; uang tukar masih dipegang Reza. Riwayat di Daftar bernilai Rp0 sampai diserahkan. | Reza, 27 Nov 11.32 |
 | Cadangan uang kecil | Uang pribadi Reza, tidak dicatat di Buku Kas. Rp200.000 ditukar dengan fee Rp10.000, jadi tersisa Rp190.000 uang kecil campuran (2.000, 5.000, 10.000), belum dihitung semua. Fee masuk tab Biaya. | Reza, 27 Nov 10.04 |
 | Amplop pecahan di gerai | Selalu Rp20.000 (awalnya 10 lembar Rp2.000), uang Reza, terpisah dari laci. Pecahan habis: karyawan minta tukar ke Reza. | Reza, 27 Nov ("sure") |
 | Modal laci kasir | Rp10.000 uang pribadi Reza, diketik sebagai saldo awal POS. Tetap Rp10.000 selama petty cash Rp100.000 dari Agrinas belum masuk ke BNI Reza. | Reza, 27 Nov |
 | Kembalian kurang | Tukar dengan amplop, nilainya sama, tidak dicatat. Kembalian selalu dari laci. Bila terpaksa memakai uang sendiri: uang + bon (tanggal, nama, nominal) masuk laci, diambil kembali saat tutup shift. Foto Timemark tutup shift berisi laci + amplop + bon di samping struk. | Usulan Claude, disetujui Reza 27 Nov ("sure") |
 | Sales yang dibawa sebelum setor | Kantong sendiri "Uang sales dibawa (belum disetor)", milik Agrinas walau dibawa Reza. Rp103.000 sales 25 Nov ada di tas Reza karena kopdes belum punya dompet fisik. | Reza, 27 Nov |
 | Kartu aturan kasir | Google Doc `SALES/Aturan Uang Kasir KDKMP Jogomulyo`, satu halaman. | Reza, 27 Nov ("sure") |
-| Catatan uang | Sheet `Buku Kas KDKMP Jogomulyo` (SALES) versi 2: Ringkas, Tutup, Setor, Biaya, Foto, Daftar, Panduan. Tab lama dihapus (izin Reza 10.23). Struktur di `templat/buku-kas.md`. | Reza, 27 Nov |
+| Catatan uang | Sheet `Buku Kas KDKMP Jogomulyo` (SALES) versi 3: Dasbor, Rincian, Tutup, Setor, Kas, Foto, Daftar, Panduan. Struktur di `templat/buku-kas.md`. | Reza, 27 Nov |
 | Cara setor | Satu transfer untuk satu tanggal sales (aturan PIC); hanya sales tunai yang disetor. Transfer 27 Nov (Rp108.500 untuk 25 dan 26 Nov) sudah Reza laporkan ke PIC untuk dikoreksi; di Buku Kas dicatat dua baris per tanggal dengan Ref ID sama. | Reza, 27 Nov 11.05 (meralat keterangan 10.23) |
 | Bukti fisik uang | Foto Timemark struk close shift beserta uangnya, seperti yang sudah Reza lakukan. Foto 26 Nov memperlihatkan tepat Rp15.500 (3 × Rp5.000 + koin Rp500). | 27 Nov |
 | Jasa angkut | Bukan kantong. Ia jenis gerakan uang (upah sopir, BBM, perawatan, bayaran petani) antar-kantong yang ada. | Reza, 27 Nov |
@@ -122,6 +126,8 @@ Daftar kantong sudah dipakai di Sheet sejak Reza menjawab "sure" (27 Nov), tetap
   - "Talangan materai · harus kembali" membuat Reza tampak menagih semua orang;
   - fee tukar dihitung sebagai uang Reza di kopdes;
   - foto dijadikan pintu masuk data (antrean).
+- **Menganggap Sheet dibuka di HP** karena Reza chat dari HP; dasbor dibuat sempit dan miskin isi (27 Nov). Dasbor dirancang untuk laptop; isian tetap bisa dari HP.
+- **Menghapus kantong Kas kopdes** saat menyederhanakan v2; Buku Kas tanpa kas (27 Nov).
 - **Menerima keterangan Reza yang bertentangan dengan aturan tercatat tanpa mengingatkan** (27 Nov 10.23: "semua gerai satu transfer per jadwal"; Claude langsung mengubah aturan dan menghapus tab Aturan lama). Reza: ingatkan bila ia keliru, keputusan tetap padanya.
 - **Menyebut PulReq tanpa mengecek statusnya** (PulReq #1 dan #2 sudah di-merge saat Claude masih menyuruh Reza memeriksanya).
 - **Membuat berkas lalu menghabiskan sedikit pikir dan riset.** Reza membandingkan dengan tracker pribadinya, yang dibangun dari satu prompt dan langsung bagus di iterasi pertama.

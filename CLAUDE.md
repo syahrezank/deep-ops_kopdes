@@ -37,5 +37,5 @@
 
 ## Bukan untuk sesi kerja
 - Repo diubah hanya lewat branch + PulReq. Jangan merge sebelum Reza setuju di chat.
-- Sebelum mengubah repo, baca `pengembangan/KEPUTUSAN.md` dan log terbaru.
+- **Yang berlaku sekarang ada di `pengembangan/KESEPAKATAN.md`** (dimuat otomatis saat sesi mulai dan setelah diringkas). Pegang itu, bukan ringkasan percakapan. Alasan dan riwayat ada di `pengembangan/KEPUTUSAN.md` dan log; dibaca bila perlu.
 - Setiap chat pengembangan dicatat di `pengembangan/log/YYYY-MM-DD.md` sebelum balasan terakhir. Status PulReq tidak perlu ditulis; riwayat git sudah mencatatnya.

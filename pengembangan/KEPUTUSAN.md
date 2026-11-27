@@ -31,6 +31,8 @@ Dibaca hanya saat mengubah repo. Riwayat per chat ada di `log/`.
 - **Buku Kas bukan tracker pribadi.** Tracker pribadi Reza (`Expense_Tracker`) jadi patokan mutu (dasbor dulu, nama pendek, tab mentah terpisah dari tab bersih), bukan untuk disalin. Buku Kas dirancang dari pertanyaan Buku Kas sendiri. (27 Nov)
 - POS tidak punya mekanisme gudang vs gerai; semua barang ada di satu daftar. **Sistem deep-ops yang menyediakan lapisan lokasi.** Planogram harus sinkron dengan stok: setiap sel menunjukkan berapa jumlah suatu produk di rak mana, bagian gudang mana, atau bagian gerai mana, termasuk lokasi lantai. Contoh 27 Nov: seluruh 198 karung Beras SPHP ditaruh di lantai gerai, antara rak tengah dan kasir, tepat setelah pintu masuk. (27 Nov)
 
+- **Satu tab isian.** Semua gerakan uang diketik di satu tab, seperti Ledger di tracker pribadinya (BNI dan tunai diketik di satu tab, Mandiri ditempel). Tab lain hanya dibaca. Beban datang dari banyaknya tempat mengetik, bukan dari jumlah tab: tracker Reza punya 12 tab terlihat, tetapi hanya satu tab isian. (Reza, 27 Nov 13.09)
+
 ## Izin tetap berkas
 Berkas di Drive atau laptop yang boleh diubah tanpa bertanya dulu. Berlaku sampai Reza mencabutnya.
 
@@ -131,6 +133,10 @@ Daftar kantong sudah dipakai di Sheet sejak Reza menjawab "sure" (27 Nov), tetap
 - **Menerima keterangan Reza yang bertentangan dengan aturan tercatat tanpa mengingatkan** (27 Nov 10.23: "semua gerai satu transfer per jadwal"; Claude langsung mengubah aturan dan menghapus tab Aturan lama). Reza: ingatkan bila ia keliru, keputusan tetap padanya.
 - **Menyebut PulReq tanpa mengecek statusnya** (PulReq #1 dan #2 sudah di-merge saat Claude masih menyuruh Reza memeriksanya).
 - **Membuat berkas lalu menghabiskan sedikit pikir dan riset.** Reza membandingkan dengan tracker pribadinya, yang dibangun dari satu prompt dan langsung bagus di iterasi pertama.
+
+- **Merancang dari kepala sendiri tanpa riset rujukan** (format buku kas, praktik tutup kasir dan setoran, aplikasi kas UMKM). Reza: "you dont use any skills or well known reference" (27 Nov 13.09). Riset dulu, sebut rujukannya, baru merancang.
+- **Menghitung status di kolom tersembunyi** sehingga "Tepat waktu" tampak diketik. Taruh dasar hitungannya (misalnya batas setor dan tanggal setor) berdampingan, supaya bisa dicek dengan mata.
+- **Kembali ke soal layar ponsel**, termasuk memilih setelan "mobile" di alat gambar (27 Nov 13.24). Rancangan Buku Kas untuk laptop; jangan dibahas lagi.
 
 ## Belum terbukti
 - Kertas dan kode lokasi untuk stok: Reza ragu karyawan mudah memakainya, karena gajinya terbatas. Peta yang dicetak juga sulit diubah dan bisa salah (27 Nov). Pilihan yang ditawarkan: (a) daftar hitung dicetak baru dari Sheet setiap kali menghitung, dengan nama biasa tanpa kode; (b) menghitung langsung di HP; (c) foto Timemark sebagai bukti fisik. Belum diputuskan.

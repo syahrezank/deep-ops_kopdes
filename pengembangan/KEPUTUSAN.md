@@ -155,6 +155,7 @@ Daftar kantong sudah dipakai di Sheet sejak Reza menjawab "sure" (27 Nov), tetap
 - **Memasukkan penerima ke nama kategori** ("Setor ke Agrinas") dan membuat kategori tanpa subkategori. Setor itu kategori, Agrinas itu penerima; Biaya itu kategori, Materai subkategorinya. Pola tracker Reza dan QuickBooks: Akun, Kategori (Kelompok > Sub), Penerima / Pemberi terpisah. (Reza, 27 Nov 16.06)
 - **Rumus memanggil nama kategori atau akun satu per satu**, sehingga setiap ganti nama merusak banyak tabel ("perbaiki satu, rusak lima", Reza 16.06). Rumus membaca Kelompok dan daftar, bukan nama yang diketik di dalam rumus. Setiap perubahan diuji dengan daftar uji tetap sebelum diserahkan.
 - **Tabel dasbor yang tidak menjawab satu pertanyaan jelas**, misalnya "Laci Kasir dan uang pribadi": orang dicampur dengan akun, "Jumlah" tanpa arti jelas, istilah mesin ("ke akun lain"). (Reza 16.06)
+- **Meminta pegawai mengetik nomor teknis** (nomor shift POS, Ref ID transfer 20 digit). Itu dibaca Claude dari foto ke tab Bukti; pencocokan memakai tanggal dan jumlah. (Reza, 27 Nov 16.11)
 - **Menulis ke tab tanpa membaca daftar tab dan isinya dulu** (27 Nov sore): Reza sudah mengganti nama tab Panduan menjadi Konfigurasi. Claude menimpa baris 1–28 tab itu, dan sel lama yang masih digabung membuang satu baris jadwal (Kamis), sehingga 26 Nov sempat tampil "Terlambat". Sudah diperbaiki; nama PJ A, B, V dari Reza tetap ada. Baca daftar tab dan isi sebelum menulis.
 
 ## Belum terbukti

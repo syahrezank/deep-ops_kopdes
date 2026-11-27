@@ -48,7 +48,7 @@ Berkas di Drive atau laptop yang boleh diubah tanpa bertanya dulu. Berlaku sampa
 | Sales yang dibawa sebelum setor | Kantong sendiri "Uang sales dibawa (belum disetor)", milik Agrinas walau dibawa Reza. Rp103.000 sales 25 Nov ada di tas Reza karena kopdes belum punya dompet fisik. | Reza, 27 Nov |
 | Kartu aturan kasir | Google Doc `SALES/Aturan Uang Kasir KDKMP Jogomulyo`, satu halaman. | Reza, 27 Nov ("sure") |
 | Catatan uang | Sheet `Buku Kas KDKMP Jogomulyo` (SALES) versi 2: Ringkas, Tutup, Setor, Biaya, Foto, Daftar, Panduan. Tab lama dihapus (izin Reza 10.23). Struktur di `templat/buku-kas.md`. | Reza, 27 Nov |
-| Cara setor | Semua gerai menyetor dengan satu transfer untuk semua sales yang jatuh tempo menurut jadwal, bukan satu transfer per tanggal sales. Hanya sales tunai yang disetor. | Reza, 27 Nov 10.23 |
+| Cara setor | Satu transfer untuk satu tanggal sales (aturan PIC); hanya sales tunai yang disetor. Transfer 27 Nov (Rp108.500 untuk 25 dan 26 Nov) sudah Reza laporkan ke PIC untuk dikoreksi; di Buku Kas dicatat dua baris per tanggal dengan Ref ID sama. | Reza, 27 Nov 11.05 (meralat keterangan 10.23) |
 | Bukti fisik uang | Foto Timemark struk close shift beserta uangnya, seperti yang sudah Reza lakukan. Foto 26 Nov memperlihatkan tepat Rp15.500 (3 × Rp5.000 + koin Rp500). | 27 Nov |
 | Jasa angkut | Bukan kantong. Ia jenis gerakan uang (upah sopir, BBM, perawatan, bayaran petani) antar-kantong yang ada. | Reza, 27 Nov |
 
@@ -122,6 +122,8 @@ Daftar kantong sudah dipakai di Sheet sejak Reza menjawab "sure" (27 Nov), tetap
   - "Talangan materai · harus kembali" membuat Reza tampak menagih semua orang;
   - fee tukar dihitung sebagai uang Reza di kopdes;
   - foto dijadikan pintu masuk data (antrean).
+- **Menerima keterangan Reza yang bertentangan dengan aturan tercatat tanpa mengingatkan** (27 Nov 10.23: "semua gerai satu transfer per jadwal"; Claude langsung mengubah aturan dan menghapus tab Aturan lama). Reza: ingatkan bila ia keliru, keputusan tetap padanya.
+- **Menyebut PulReq tanpa mengecek statusnya** (PulReq #1 dan #2 sudah di-merge saat Claude masih menyuruh Reza memeriksanya).
 - **Membuat berkas lalu menghabiskan sedikit pikir dan riset.** Reza membandingkan dengan tracker pribadinya, yang dibangun dari satu prompt dan langsung bagus di iterasi pertama.
 
 ## Belum terbukti

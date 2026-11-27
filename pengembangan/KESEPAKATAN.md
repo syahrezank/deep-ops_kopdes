@@ -14,6 +14,17 @@ Penanda: **✔** disepakati Reza · **?** usulan Claude, belum disetujui.
 - **Chat kerja hanya menyambungkan deep-ops.** Hook tidak berjalan di sesi banyak repo.
 - **Jawab untuk keadaan gerai, langsung ke pertanyaan.** Kutipan SOP atau sumber hanya bila diminta atau risikonya tinggi.
 
+## Ingatan ✔ (Reza, 27 Nov 16.49)
+Berlaku di chat yang hanya menyambungkan deep-ops:
+- **Saat sesi mulai dan setelah diringkas,** halaman ini dimuat otomatis.
+- **Sebelum diringkas,** berkas yang sudah ditulis di cabang `claude/…` di-commit dan di-push otomatis. Tidak pernah ke main.
+- **Setiap selesai membalas,** bila ada perubahan yang belum tersimpan, Claude dikirim kembali untuk mencatat log, commit, push, dan menyebut PulReq.
+- **Yang tidak otomatis:**
+  - menulis isi ingatan (tetap tugas Claude, sambil bekerja);
+  - menggabung PulReq (Reza). Chat baru hanya membaca main.
+
+Belum terbukti jalan di chat web; diuji di chat baru.
+
 ## Berkas ✔ (Reza, 27 Nov 16.36)
 1. **Operasional gerai.** Dibuka bersama karyawan. Isinya uang gerai, stok dan lokasi, tugas dan jadwal, dengan satu set daftar induk.
 2. **Kinerja.** Hanya Reza yang membuka. Tidak ada isian baru; membaca satu arah dari Operasional.

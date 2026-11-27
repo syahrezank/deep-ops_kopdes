@@ -143,6 +143,14 @@ Daftar kantong sudah dipakai di Sheet sejak Reza menjawab "sure" (27 Nov), tetap
 - **Menghitung status di kolom tersembunyi** sehingga "Tepat waktu" tampak diketik. Taruh dasar hitungannya (misalnya batas setor dan tanggal setor) berdampingan, supaya bisa dicek dengan mata.
 - **Kembali ke soal layar ponsel**, termasuk memilih setelan "mobile" di alat gambar (27 Nov 13.24). Rancangan Buku Kas untuk laptop; jangan dibahas lagi.
 
+- **Mencampur akun dengan jenis transaksi dan status** (v4, 27 Nov 15.22):
+  - "Belum disetor" dijadikan kantong, padahal itu status;
+  - "Langsung ke Agrinas" dijadikan kantong, padahal itu cara bayar;
+  - jenis diikat ke kantong di Panduan;
+  - Kas Koperasi digabung dengan penjualan KDKMP (pemiliknya beda: koperasi vs Agrinas) di satu daftar buku kas;
+  - uang 10k Reza di laci dicatat sebagai kas gerai ("Modal laci"), bukan uang pribadi.
+  Reza meminta istilah biasa: Akun, Kategori transaksi, Status, PJ (penanggung jawab), dan "Laci Kasir", bukan "Modal laci". QRIS tidak diurus dulu.
+
 ## Belum terbukti
 - Kertas dan kode lokasi untuk stok: Reza ragu karyawan mudah memakainya, karena gajinya terbatas. Peta yang dicetak juga sulit diubah dan bisa salah (27 Nov). Pilihan yang ditawarkan: (a) daftar hitung dicetak baru dari Sheet setiap kali menghitung, dengan nama biasa tanpa kode; (b) menghitung langsung di HP; (c) foto Timemark sebagai bukti fisik. Belum diputuskan.
 - Kas awal POS diketik kasir setiap shift (selalu Rp10.000), bukan sisa laci kemarin. Akibatnya uang yang tertinggal di laci antar-shift tidak terlihat di POS.

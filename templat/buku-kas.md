@@ -1,5 +1,7 @@
 # Struktur Sheet `Buku Kas KDKMP Jogomulyo` (versi 5, 27 Nov 2026)
 
+> Ini keadaan Sheet yang sedang berjalan. Rancangan berikutnya (kategori Kelompok › Sub, Penerima / Pemberi, dasbor 4 pertanyaan, stok) ada di `pengembangan/KESEPAKATAN.md`.
+
 Letak: Drive kerja, folder `SALES`. Locale in_ID. Dibangun ulang di berkas yang sama, jadi link tetap; versi lama bisa dipulihkan lewat riwayat versi (File → Riwayat versi). Karyawan ikut membuka Sheet ini, jadi bahasanya netral.
 
 ## Prinsip

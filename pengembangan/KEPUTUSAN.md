@@ -20,6 +20,8 @@ Dibaca hanya saat mengubah repo. Riwayat per chat ada di `log/`.
 - Fokus satu aspek dulu: uang. Menulis ke Obsidian diizinkan nanti, belum sekarang. (27 Nov)
 - Kantong uang bisa dipegang atau dititipkan ke karyawan untuk sebuah tugas. Setiap kantong punya pemegang, dan setiap serah terima dicatat. (27 Nov)
 - Penjualan POS bisa diambil dari gudang maupun gerai; contohnya seluruh pupuk sekarang ada di gudang dan dijual dari sana. Jadi setiap produk punya lokasi jual sendiri; anggapan "penjualan selalu dari gerai" salah. (27 Nov)
+- **Berkas kerja bersama selalu Google** (Sheets, Docs, atau jenis lain lewat Drive), tidak pernah Excel atau berkas offline, karena perlu kolaborasi. Folder Drive lokal di laptop dipakai untuk membaca gambar; GitHub untuk ingatan, aturan, dan alat. (27 Nov)
+- **Bangun dasar semua aspek dulu.** Otomasi, atau setidaknya pengolahan mudah lewat Claude Code, baru jauh nanti setelah dasar semua aspek berdiri. Dasar itu harus muat juga aspek yang belum Reza tulis, belum terpikir, atau belum ada di folder Drive. (27 Nov)
 - POS tidak punya mekanisme gudang vs gerai; semua barang ada di satu daftar. **Sistem deep-ops yang menyediakan lapisan lokasi.** Planogram harus sinkron dengan stok: setiap sel menunjukkan berapa jumlah suatu produk di rak mana, bagian gudang mana, atau bagian gerai mana, termasuk lokasi lantai. Contoh 27 Nov: seluruh 198 karung Beras SPHP ditaruh di lantai gerai, antara rak tengah dan kasir, tepat setelah pintu masuk. (27 Nov)
 
 ## Izin tetap berkas
@@ -33,9 +35,12 @@ Berkas di Drive atau laptop yang boleh diubah tanpa bertanya dulu. Berlaku sampa
 | Pembagian repo | Satu repo ops untuk kas, stok, dan orang. Pencocokan ganda terjadi antar-bagian, jadi bagian-bagian itu harus di satu tempat. deep-space tetap untuk aturan, administrasi, pupuk, dan kasus SDM; deep-studio untuk desain dan pemasaran. | Diskusi 25 Nov; Reza membuat repo ini |
 | Penyimpanan | Foto, PDF, ekspor, dan data di Drive/Sheets. Repo hanya teks dan alat, supaya tidak membengkak. | 25 Nov |
 | Membaca Drive | Lewat folder lokal (Claude desktop). Konektor Drive tidak dipakai untuk membaca foto. | Reza, 26 Nov |
-| Cadangan pecahan Rp2.000 (Rp200.000, ditukar lewat jasa berbayar) | Uang pribadi Reza | Reza, 27 Nov |
-| Amplop pecahan di gerai | ±Rp20.000 dalam pecahan Rp2.000, uang Reza. Bila perlu lebih, karyawan meminta ke Reza; sisa cadangan dipegang Reza. | Reza, 27 Nov |
-| Modal laci kasir (Rp10.000 di POS) | Uang pribadi Reza. Agrinas belum memberi petty cash. | Reza, 27 Nov |
+| Cadangan pecahan Rp2.000 (Rp200.000, ditukar lewat jasa berbayar) | Uang pribadi Reza. Setelah Rp20.000 masuk amplop gerai, sisa Rp180.000 dipegang Reza. | Reza, 27 Nov |
+| Amplop pecahan di gerai | Selalu Rp20.000 (awalnya 10 lembar Rp2.000), uang Reza, terpisah dari laci. Pecahan habis: karyawan minta tukar ke Reza. | Reza, 27 Nov ("sure") |
+| Modal laci kasir | Rp10.000 uang pribadi Reza, diketik sebagai saldo awal POS. Tetap Rp10.000 selama petty cash Rp100.000 dari Agrinas belum masuk ke BNI Reza. | Reza, 27 Nov |
+| Kembalian kurang | Tukar dengan amplop, nilainya sama, tidak dicatat. Kembalian selalu dari laci. Bila terpaksa memakai uang sendiri: uang + bon (tanggal, nama, nominal) masuk laci, diambil kembali saat tutup shift. Foto Timemark tutup shift berisi laci + amplop + bon di samping struk. | Usulan Claude, disetujui Reza 27 Nov ("sure") |
+| Sales yang dibawa sebelum setor | Kantong sendiri "Uang sales dibawa (belum disetor)", milik Agrinas walau dibawa Reza. Rp103.000 sales 25 Nov ada di tas Reza karena kopdes belum punya dompet fisik. | Reza, 27 Nov |
+| Kartu aturan kasir | Google Doc `SALES/Aturan Uang Kasir KDKMP Jogomulyo`, satu halaman. | Reza, 27 Nov ("sure") |
 | Catatan uang | Dibangun di Sheet `Buku Kas KDKMP Jogomulyo` (SALES): tab Kantong, Mutasi, POS Harian, Aturan. Struktur di `templat/buku-kas.md`. | Reza, 27 Nov |
 | Bukti fisik uang | Foto Timemark struk close shift beserta uangnya, seperti yang sudah Reza lakukan. Foto 26 Nov memperlihatkan tepat Rp15.500 (3 × Rp5.000 + koin Rp500). | 27 Nov |
 | Jasa angkut | Bukan kantong. Ia jenis gerakan uang (upah sopir, BBM, perawatan, bayaran petani) antar-kantong yang ada. | Reza, 27 Nov |
@@ -83,10 +88,10 @@ Berkas di Drive atau laptop yang boleh diubah tanpa bertanya dulu. Berlaku sampa
 - Uji 23 → 26 Nov: penurunan stok Urea (50), Beras (2), dan Raja Gula (2) cocok dengan penjualan.
 
 ## Rancangan DRAF (belum dibaca/disetujui Reza)
-Reza belum membaca daftar kantong (27 Nov). Jangan dibangun sebelum disetujui.
+Daftar kantong sudah dipakai di Sheet sejak Reza menjawab "sure" (27 Nov), tetapi ia belum menyatakan daftar itu final. Bagian stok, tugas, dan orang belum dibangun.
 
 - **Uang:** satu catatan gerakan uang antar-kantong (dari → ke, nominal, jenis, siapa, foto bukti, paraf). Setiap "buku" hanyalah tampilan dari catatan itu. Hanya baris yang menyentuh kantong pribadi Reza yang dikirim ke tracker pribadinya.
-  - Kantong = tempat uang berada secara fisik, dengan pemilik dan pemegang sekarang. Usulan revisi 27 Nov (versi pertama dikoreksi Reza: jasa angkut bukan kantong): Laci kasir (modal milik Reza + sales milik Agrinas), Cadangan pecahan (milik Reza), Kas operasional kopdes, Uang pribadi Reza (BNI, tunai), Uang karyawan (bila karyawan membayar atau menyetor dengan uangnya sendiri), BNI Agrinas (tujuan setoran).
+  - Kantong = tempat uang berada secara fisik, dengan pemilik dan pemegang sekarang. Daftar terbaru ada di `templat/buku-kas.md` (versi pertama dikoreksi Reza: jasa angkut bukan kantong).
   - Jasa angkut, talangan (materai, pengajuan ke Agrinas), tukar pecahan, setoran, dan belanja operasional menjadi **jenis** gerakan, bukan kantong. "Sales belum disetor" dihitung: penjualan POS dikurangi setoran.
   - Serah terima kantong ke karyawan dicatat sebagai baris tersendiri, diparaf kedua pihak.
   - Setiap kantong punya lembar hitung kertas; Sheet menghitung selisihnya sendiri.

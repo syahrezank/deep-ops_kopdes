@@ -152,6 +152,9 @@ Daftar kantong sudah dipakai di Sheet sejak Reza menjawab "sure" (27 Nov), tetap
   - uang 10k Reza di laci dicatat sebagai kas gerai ("Modal laci"), bukan uang pribadi.
   Reza meminta istilah biasa: Akun, Kategori transaksi, Status, PJ (penanggung jawab), dan "Laci Kasir", bukan "Modal laci". QRIS tidak diurus dulu.
 - **Panduan yang isinya pengaturan** (daftar akun, jenis, jadwal, rekening) disebut panduan. Reza 15.32: "yang kamu buat itu konfigurasi, sama sekali bukan panduan, manusia awam tidak membaca itu". Panduan ditulis per kejadian untuk orang biasa; daftar yang dipakai rumus masuk tab Akun, Kategori, dan Konfigurasi.
+- **Memasukkan penerima ke nama kategori** ("Setor ke Agrinas") dan membuat kategori tanpa subkategori. Setor itu kategori, Agrinas itu penerima; Biaya itu kategori, Materai subkategorinya. Pola tracker Reza dan QuickBooks: Akun, Kategori (Kelompok > Sub), Penerima / Pemberi terpisah. (Reza, 27 Nov 16.06)
+- **Rumus memanggil nama kategori atau akun satu per satu**, sehingga setiap ganti nama merusak banyak tabel ("perbaiki satu, rusak lima", Reza 16.06). Rumus membaca Kelompok dan daftar, bukan nama yang diketik di dalam rumus. Setiap perubahan diuji dengan daftar uji tetap sebelum diserahkan.
+- **Tabel dasbor yang tidak menjawab satu pertanyaan jelas**, misalnya "Laci Kasir dan uang pribadi": orang dicampur dengan akun, "Jumlah" tanpa arti jelas, istilah mesin ("ke akun lain"). (Reza 16.06)
 - **Menulis ke tab tanpa membaca daftar tab dan isinya dulu** (27 Nov sore): Reza sudah mengganti nama tab Panduan menjadi Konfigurasi. Claude menimpa baris 1–28 tab itu, dan sel lama yang masih digabung membuang satu baris jadwal (Kamis), sehingga 26 Nov sempat tampil "Terlambat". Sudah diperbaiki; nama PJ A, B, V dari Reza tetap ada. Baca daftar tab dan isi sebelum menulis.
 
 ## Belum terbukti

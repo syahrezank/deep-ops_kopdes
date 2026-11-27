@@ -67,6 +67,14 @@ Saldo awal dibuang (? 16.14).
 - total tunai per tanggal sales = tunai close shift;
 - total setor per hari = transfer hari itu.
 
+**Alur fisik ?** (Reza 17.19, masih dirancang):
+- **Tambah kembalian = tukar utuh** dengan nilai sama (misal 10k jadi 5×2k). Boleh dilakukan sesudah memberi kembalian, asal dicatat.
+- **Bila terpaksa meminjamkan ke laci,** jumlahnya dicatat. Kapan dan di mana dicatat belum ditentukan.
+- **Dua dompet:**
+  - dompet gerai: uang penjualan menunggu setor;
+  - dompet kembalian: uang pribadi Reza.
+- **Catatan di dompet** harus kecil dan tidak perlu menggaris tabel setiap hari.
+
 **Hitung laci saat tutup shift ?** (Reza 17.02: Sheet harus membantu kasus nyata).
 - Yang diisi hanya hitungan fisik.
 - Sheet menampilkan:

@@ -23,7 +23,7 @@ Berlaku di chat yang hanya menyambungkan deep-ops:
   - menulis isi ingatan (tetap tugas Claude, sambil bekerja);
   - menggabung PulReq (Reza). Chat baru hanya membaca main.
 
-Belum terbukti jalan di chat web; diuji di chat baru.
+Uji 27 Nov 17.02: chat baru menjawab isi kesepakatan dan menyebutnya termuat otomatis, jadi pemuat awal sesi tampak jalan. Penjaga simpan dan simpan-sebelum-ringkas belum teruji di chat web.
 
 ## Berkas ✔ (Reza, 27 Nov 16.36)
 1. **Operasional gerai.** Dibuka bersama karyawan. Isinya uang gerai, stok dan lokasi, tugas dan jadwal, dengan satu set daftar induk.
@@ -66,6 +66,15 @@ Saldo awal dibuang (? 16.14).
 **Pencocokan foto ?** (16.11), per tanggal dan jumlah:
 - total tunai per tanggal sales = tunai close shift;
 - total setor per hari = transfer hari itu.
+
+**Hitung laci saat tutup shift ?** (Reza 17.02: Sheet harus membantu kasus nyata).
+- Yang diisi hanya hitungan fisik.
+- Sheet menampilkan:
+  - jumlah yang seharusnya ada;
+  - bagian Agrinas (disetor, sama dengan struk);
+  - bagian tiap orang (diambil kembali);
+  - selisih yang belum terjelaskan.
+- Sheet juga memberi tahu baris apa yang perlu ditulis.
 
 **Dasbor ?**, 4 pertanyaan, satu tabel untuk tiap pertanyaan:
 1. Setor tepat waktu?
@@ -116,6 +125,11 @@ Dihitung dari data operasional, tanpa isian tambahan:
 7. Satu transfer untuk dua tanggal sales: dua baris, cocok foto.
 8. Baris tanpa tanggal, akun, atau kategori: ditandai di Cek.
 9. Hasil dilihat lewat ekspor PDF: tidak ada teks terpotong.
+
+10. **Kasus nyata 27 Nov.** Modal laci 10k uang Reza. Beras 58k dibayar 70k; kembalian 12k, terdiri dari 10k dari laci + 2k dari saku Reza. Hitungan laci 71k.
+    - Seharusnya 70k: Agrinas 58k + Reza 12k.
+    - Selisih lebih 1k.
+    - POS mengharapkan 68k, jadi selisihnya +3k bila 2k Reza tidak diambil dulu.
 
 Uji stok ditambahkan saat bagian stok dibangun.
 

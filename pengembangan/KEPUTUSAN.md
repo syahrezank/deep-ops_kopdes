@@ -47,7 +47,8 @@ Berkas di Drive atau laptop yang boleh diubah tanpa bertanya dulu. Berlaku sampa
 | Kembalian kurang | Tukar dengan amplop, nilainya sama, tidak dicatat. Kembalian selalu dari laci. Bila terpaksa memakai uang sendiri: uang + bon (tanggal, nama, nominal) masuk laci, diambil kembali saat tutup shift. Foto Timemark tutup shift berisi laci + amplop + bon di samping struk. | Usulan Claude, disetujui Reza 27 Nov ("sure") |
 | Sales yang dibawa sebelum setor | Kantong sendiri "Uang sales dibawa (belum disetor)", milik Agrinas walau dibawa Reza. Rp103.000 sales 25 Nov ada di tas Reza karena kopdes belum punya dompet fisik. | Reza, 27 Nov |
 | Kartu aturan kasir | Google Doc `SALES/Aturan Uang Kasir KDKMP Jogomulyo`, satu halaman. | Reza, 27 Nov ("sure") |
-| Catatan uang | Sheet `Buku Kas KDKMP Jogomulyo` (SALES) versi 2: Ringkas, Tutup, Setor, Biaya, Foto, Daftar, Panduan. Tab lama disembunyikan sampai Reza setuju. Struktur di `templat/buku-kas.md`. | Reza, 27 Nov |
+| Catatan uang | Sheet `Buku Kas KDKMP Jogomulyo` (SALES) versi 2: Ringkas, Tutup, Setor, Biaya, Foto, Daftar, Panduan. Tab lama dihapus (izin Reza 10.23). Struktur di `templat/buku-kas.md`. | Reza, 27 Nov |
+| Cara setor | Semua gerai menyetor dengan satu transfer untuk semua sales yang jatuh tempo menurut jadwal, bukan satu transfer per tanggal sales. Hanya sales tunai yang disetor. | Reza, 27 Nov 10.23 |
 | Bukti fisik uang | Foto Timemark struk close shift beserta uangnya, seperti yang sudah Reza lakukan. Foto 26 Nov memperlihatkan tepat Rp15.500 (3 × Rp5.000 + koin Rp500). | 27 Nov |
 | Jasa angkut | Bukan kantong. Ia jenis gerakan uang (upah sopir, BBM, perawatan, bayaran petani) antar-kantong yang ada. | Reza, 27 Nov |
 

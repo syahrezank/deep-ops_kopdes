@@ -20,7 +20,7 @@ Prinsip:
 | Daftar | Reza | Modal awal (dari riwayat bertanggal), amplop tukar, batas jam setor, rekening, hari setor per hari sales, nama, pembayar, jenis foto. |
 | Panduan | — | Cara pakai singkat untuk kasir, penyetor, pembayar biaya, dan Claude. |
 
-Tab lama (Kantong, Mutasi, POS Harian, Aturan) disembunyikan sampai Reza menyetujui versi 2, lalu dihapus.
+Tab lama (Kantong, Mutasi, POS Harian, Aturan) dihapus 27 Nov atas izin Reza.
 
 ## Alur
 1. Kasir menutup shift → mengisi baris Tutup → foto Timemark → foto sampai di Drive.

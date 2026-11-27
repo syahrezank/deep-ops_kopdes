@@ -57,8 +57,9 @@ Berkas di Drive atau laptop yang boleh diubah tanpa bertanya dulu. Berlaku sampa
 | Cara setor | Satu transfer untuk satu tanggal sales (aturan PIC); hanya sales tunai yang disetor. Transfer 27 Nov (Rp108.500 untuk 25 dan 26 Nov) sudah Reza laporkan ke PIC untuk dikoreksi; di Buku Kas dicatat dua baris per tanggal dengan Ref ID sama. | Reza, 27 Nov 11.05 (meralat keterangan 10.23) |
 | Bukti fisik uang | Foto Timemark struk close shift beserta uangnya, seperti yang sudah Reza lakukan. Foto 26 Nov memperlihatkan tepat Rp15.500 (3 × Rp5.000 + koin Rp500). | 27 Nov |
 | Shift di Buku Kas | Buku Kas mengikuti uang, bukan orang: baris ditulis hanya bila uang pindah tempat atau pindah tangan. Buka shift, istirahat, dan tukar pecahan tidak ditulis; tutup shift (termasuk mendadak dan ganti shift) satu baris Penjualan tunai. Catatan shift lengkap (buka, modal awal, tutup, QRIS, selisih) ada di POS dan dibaca Claude ke tab Bukti. | Usulan Claude dari riset dan SOP kasir Agrinas, 27 Nov 13.39 (Reza belum memutuskan) |
-| QRIS | Tetap di Buku Kas sebagai jenis Penjualan QRIS, kantong Langsung ke Agrinas (tanpa saldo), karena harus dilaporkan ke PIC beserta screenshot. QRIS belum aktif. | Reza, 27 Nov 13.39 |
+| QRIS dan debit | Tetap di Buku Kas: jenis Penjualan QRIS dan Penjualan debit (EDC), kantong Langsung ke Agrinas (tanpa saldo). Gform PIC meminta total omset, tunai, debit EDC (+ foto settlement), dan QRIS statis (+ foto QRIS wondr) per tanggal close shift. QRIS belum aktif. | Reza, 27 Nov 13.39 dan 14.53 (screenshot Gform) |
 | Biaya 25 Nov | Fee tukar Rp10.000, materai Rp60.000, cetak Rp20.000 bertanggal 25 Nov, dibayar uang pribadi Reza. | Reza, 27 Nov 13.39 |
+| Gform setor sales | Gform "Bukti Setor Sales Harian KDKMP": metode setor tunai di teller atau transfer langsung ke APN; per tanggal: tanggal transaksi, nominal (tanpa titik), bukti transfer. Aturan: satu tanggal satu setoran, tidak digabung, tidak dibulatkan, tidak ditambah modal awal, nominal sesuai struk close shift. Transfer: catatan per tanggal (pola "KDKMP <nama> Kec <kecamatan> penjualan Tgl <tanggal>"). Teller: tanpa berita (kena biaya), tulis "Sales tanggal X - KDKMP X" di slip. Jadwal di form: Jumat–Minggu, Senin–Selasa, Rabu–Kamis. Disalin ke Panduan Buku Kas. | Screenshot Gform dari Reza, 27 Nov 14.53 |
 | Jasa angkut | Bukan kantong. Ia jenis gerakan uang (upah sopir, BBM, perawatan, bayaran petani) antar-kantong yang ada. | Reza, 27 Nov |
 
 ## Kebutuhan Reza
@@ -147,6 +148,6 @@ Daftar kantong sudah dipakai di Sheet sejak Reza menjawab "sure" (27 Nov), tetap
 - Laporan Stok POS bisa memilih tanggal lampau.
 - "Nilai stok" di POS adalah harga pokok.
 - Mesin POS punya versi web yang bisa dibaca lewat browser.
-- QRIS dan debit ikut disetor ke Agrinas (aturan grup belum merinci).
+- QRIS statis masuk ke rekening siapa. Gform hanya meminta manajer menyetor tunai ("hanya transfer dengan nominal total tunai"), jadi dugaan sekarang: QRIS dan debit langsung ke Agrinas. Belum dipastikan; foto "QRIS wondr" bisa berarti QRIS tercatat di aplikasi wondr seseorang.
 - Hari tanpa penjualan tunai tidak perlu setor.
 - Tugas lama di Obsidian diperlakukan sebagai arsip (usulan Claude 26 Nov, belum dikonfirmasi Reza).
